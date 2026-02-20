@@ -12,7 +12,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
   if (mobileNumber == "01571164022" && pin == "5466") {
     alert("Login successful!");
 
-    window.location.assign("/home.html");
+    window.location.assign("home.html");
     //window.location.replace("/home.html");  //replace use korle back button kaj korbe na, assign use korle back button kaj korbe
   } else {
     alert("Invalid mobile number or PIN. Please try again.");
