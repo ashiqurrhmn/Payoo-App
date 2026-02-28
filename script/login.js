@@ -1,3 +1,5 @@
+// login.js - client‑side login validation (demo only)
+
 console.log("Login script loaded");
 
 document.getElementById("login-btn").addEventListener("click", function () {
