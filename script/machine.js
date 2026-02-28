@@ -26,11 +26,13 @@ function showOnly(id) {
   const addmoney = document.getElementById("addMoney");
   const cashout = document.getElementById("cashout");
   const transfer = document.getElementById("transfer");
+  const bonus = document.getElementById("bonus");
   const hisTory = document.getElementById("history");
 
   addmoney.classList.add("hidden");
   cashout.classList.add("hidden");
   transfer.classList.add("hidden");
+  bonus.classList.add("hidden");
   hisTory.classList.add("hidden");
 
   const selected = document.getElementById(id);

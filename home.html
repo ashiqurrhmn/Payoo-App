@@ -95,6 +95,7 @@
             <p class="text-[14px] text-neutral/60">Transfer Money</p>
           </button>
           <button
+            onclick="showOnly('bonus')"
             class="btn flex-col h-full px-[26px] py-[20px] rounded-[12px] bg-white"
           >
             <img src="./payoo-resources/assets/opt-4.png" alt="" />
@@ -279,6 +280,51 @@
       </div>
     </section>
 
+    <!-- bonus section allows user to claim a small reward -->
+    <section id="bonus" class="w-11/12 mx-auto mt-[15.5px] hidden">
+      <h2 class="text-[18px] font-semibold text-neutral">Get Bonus</h2>
+      <div class="form mt-[32px]">
+        <div
+          class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto rounded-[24px]"
+        >
+          <div class="card-body">
+            <fieldset class="fieldset">
+              <p class="text-neutral/60 pb-2">
+                Enter a voucher code (e.g. <code>bonus100</code>,
+                <code>bonus500</code>) to receive that amount as a bonus.
+              </p>
+              <label class="label font-extrabold text-neutral/60"
+                >Voucher Code</label
+              >
+              <input
+                id="bonus-code"
+                type="text"
+                class="input border-none rounded-[32px] bg-base-200"
+                placeholder="e.g. bonus100"
+              />
+              <label class="label font-extrabold text-neutral/60"
+                >4 Digit Pin</label
+              >
+              <input
+                id="bonus-pin"
+                maxlength="4"
+                minlength="4"
+                type="password"
+                class="input border-none rounded-[32px] bg-base-200"
+                placeholder="Enter 4-digit PIN"
+              />
+              <button
+                id="bonus-btn"
+                class="btn btn-primary mt-4 rounded-[32px] text-[20px]"
+              >
+                Claim Bonus
+              </button>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="history" class="w-11/12 mx-auto mt-[15.5px] hidden">
       <h2 class="text-[18px] font-semibold text-neutral">Transaction</h2>
       <div id="history-container" class="space-y-2">
@@ -290,5 +336,6 @@
     <script src="script/addMoney.js"></script>
     <script src="script/cashout.js"></script>
     <script src="script/transfer_money.js"></script>
+    <script src="script/get_bonus.js"></script>
   </body>
 </html>

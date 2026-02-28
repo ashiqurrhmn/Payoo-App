@@ -17,6 +17,7 @@ withdrawing cash, sending money to other users, and tracking transactions.
 - **Add Money** from a bank account (simulates deposit)
 - **Cash Out** to an agent number
 - **Transfer Money** to another user’s mobile number
+- **Get Bonus** – redeem a voucher code (e.g. `bonus100`, `bonus500`) to receive that amount as a reward (requires PIN)
 - **Transaction History** logs every action performed during the
   session
 - **PIN verification** on every transaction (PIN `5466` is used by default)
@@ -35,7 +36,8 @@ withdrawing cash, sending money to other users, and tracking transactions.
     ├── cashout.js       # cash out workflow
     ├── login.js         # login validation
     ├── machine.js       # shared DOM helpers
-    └── transfer_money.js# transfer workflow
+    ├── transfer_money.js# transfer workflow
+    └── get_bonus.js      # bonus claim workflow (voucher codes supported)
 ```
 
 Each HTML and script file contains comments explaining the role of its
