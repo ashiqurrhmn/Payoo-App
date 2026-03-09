@@ -12,7 +12,7 @@ withdrawing cash, sending money to other users, and tracking transactions.
 
 ## Features
 
-- **Login page** with hard-coded credentials
+- **Login page** with hard-coded credentials ( default mobile no: 01571164022 pin: 5466 )
 - **Home dashboard** showing available balance and navigation icons
 - **Add Money** from a bank account (simulates deposit)
 - **Cash Out** to an agent number
