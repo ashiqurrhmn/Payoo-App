@@ -59,5 +59,33 @@ scripts from CDNs, so no build step or server is required. Keep the
 Enjoy experimenting, but remember this is a mockup — it does not
 communicate with any real payment systems.
 
+## Dependencies
+
+- Tailwind CSS
+- Font Awesome
+
+---
+
+## Run Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/ashiqurrhmn/Payoo-App.git
+```
+
+Go to the project directory
+
+```bash
+cd Payoo-App
+```
+
+Open the project
+
+You can directly open the `index.html` file in your browser.
+
+Or run with VS Code Live Server extension.
+
+
 
 Live site: https://ashiqurrhmn.github.io/Payoo-App/
